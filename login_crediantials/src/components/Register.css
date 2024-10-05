@@ -1,0 +1,87 @@
+.auth-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #004e92, #000428);
+}
+
+.form-content {
+    background-color: #0c0e15;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 300px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #01bf71;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+    background-color: #019f62;
+}
+
+.welcome-section {
+    text-align: left;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border-radius: 10px;
+    width: 400px;
+}
+
+.welcome-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 16px;
+}
+
+a {
+    color: #01bf71;
+    text-decoration: none;
+}
+.password-hint {
+    font-size: 0.8em; /* Smaller text */
+    color: #888; /* Light gray color */
+    margin-top: 5px; /* Space above hint */
+}
+
